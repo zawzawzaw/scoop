@@ -104,6 +104,18 @@
   .home .content-5 .img-text-content .text-content {
     width: 40%;
   }
+  .flavour .content-7 .img-text-content .img-content {
+    width: 45%;
+  }
+  .flavour .content-7 .img-text-content .text-content {
+    width: 40%;
+  }
+  .contact .content-2 .img-text-content .img-content {
+    width: 45%;
+  }
+  .contact .content-2 .img-text-content .text-content {
+    width: 40%;
+  }
 }
 @media all and (max-width: 1380px) {
   #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h1 {
@@ -222,30 +234,22 @@
 }
 @media all and (max-width: 992px) {
   #page-wrapper .slider-wrapper div.item div.carousel-caption {
-    left: 0%;
+    width: 100%;
+    left: 0px;
+    top: 15%;
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption {
-    left: 0%;
-  }
-  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption div.caption-img {
-    display: block;
-    width: 50%;
-    position: relative;
-    left: -1%;
-  }
-  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption div.caption-img img {
-    width: 100%;
+    position: static;
+    text-align: left;
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption div.caption-text {
-    display: none;
-    width: 30%;
-    position: relative;
-    top: 0px;
-    left: 3%;
+    width: 100%;
+    position: static;
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption div.caption-text h1 {
     font-size: 50px;
     line-height: 60px;
+    text-align: center;
   }
   #page-wrapper #content-wrapper #menu-logo-wrapper .main-menu {
     padding: 0 20px;
@@ -261,9 +265,12 @@
     width: 100%;
     padding-left: 20px;
     left: 0;
+    top: 77px;
+    display: none;
   }
   #page-wrapper #content-wrapper #menu-logo-wrapper .main-menu .main-nav-wrapper.mobile-show-nav {
     background: white;
+    display: block;
   }
   #page-wrapper #content-wrapper #menu-logo-wrapper .main-menu .main-nav-wrapper ul {
     padding-top: 35px;
@@ -316,11 +323,14 @@
   }
   #page-wrapper #content-wrapper .home .content-extra .img-text-content,
   #page-wrapper #content-wrapper .home .content-extra .img-text-content-2 {
-    padding-top: 40px;
+    padding-top: 0px;
   }
   #page-wrapper #content-wrapper .home .content-extra .img-text-content .text-content,
   #page-wrapper #content-wrapper .home .content-extra .img-text-content-2 .text-content {
     padding: 0px;
+  }
+  #page-wrapper #content-wrapper .home .content-extra .img-text-content-2 {
+    margin-top: 20px;
   }
   #page-wrapper #content-wrapper .home .content-3 {
     padding: 50px 20px;
@@ -532,10 +542,27 @@
     padding-left: 0px;
   }
 }
+@media all and (max-width: 480px) {
+  
+}
 @media all and (max-width: 414px) {
-  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption div.caption-img {
-    width: 40%;
-    left: 0%;
+  #page-wrapper .slider-wrapper div.item div.carousel-caption {
+    width: 100%;
+    left: 0px;
+    top: 18%;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption {
+    position: static;
+    text-align: left;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption div.caption-text {
+    width: 100%;
+    position: static;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption div.caption-text h1 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
   }
   #page-wrapper #content-wrapper .home .content-3 .img-text-content .twitter .twitter-content ul li .twitter-img {
     width: 19%;
@@ -557,13 +584,13 @@
   }
 }
 @media all and (max-width: 375px) {
-  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption div.caption-img {
-    width: 35%;
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption div.caption-text h1 {
+    font-size: 25px;
   }
 }
 @media all and (max-width: 320px) {
-  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption div.caption-img {
-    width: 30%;
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption div.caption-text h1 {
+    font-size: 25px;
   }
   #page-wrapper #content-wrapper #menu-logo-wrapper.white-version {
     padding: 11px 0px;

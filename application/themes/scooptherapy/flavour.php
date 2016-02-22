@@ -256,6 +256,6 @@
 
 	</div>
 
-	<script type="text/javascript" src="<?= $view->getThemePath() ?>js/flavour.js"></script>
+	<script type="text/javascript" src="<?= $view->getThemePath() ?>/js/flavour.js"></script>
 
 <?php $view->inc('elements/footer.php'); ?>

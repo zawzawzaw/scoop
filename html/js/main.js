@@ -135,8 +135,14 @@ $(document).ready(function(){
 
     $('.toggle-menu').on('click', function(e){
         e.preventDefault();     
-        $('.main-nav').toggleClass('show-nav');
-        $('.main-nav').parent().toggleClass('mobile-show-nav');
+        var $mainNav = $('.main-nav');
+        $mainNav.toggleClass('show-nav');
+        $mainNav.parent().toggleClass('mobile-show-nav');
+        if($mainNav.hasClass('show-nav')) {
+            $('#menu-logo-wrapper').addClass('white-version');
+        }else {
+            $('#menu-logo-wrapper').removeClass('white-version');
+        }
     });
 
     $(".carousel").swiperight(function() {  

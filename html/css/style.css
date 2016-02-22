@@ -693,7 +693,7 @@ hr.small {
 .cta span {
   display: inline-block !important;
   vertical-align: middle;
-  font-family: "hurmegeometricsans2-black", sans-serif !important;
+  font-family: "hurmegeometricsans2-black", sans-serif;
   color: #4c4c4c !important;
 }
 .cta:hover {
@@ -1418,6 +1418,7 @@ footer#footer-wrapper ul li a:hover {
   height: 0;
   padding-bottom: 68.2%;
   /* of parent width */
+
 }
 .home .content-5 .img-text-content .img-content .map-container .map {
   position: absolute;
@@ -1719,7 +1720,7 @@ footer#footer-wrapper ul li a:hover {
 }
 .flavour .content-5 .img-text-content .each-flavour p {
   color: #666666;
-  width: 52%;
+  width: 210px;
   margin: 0 auto;
 }
 .flavour .content-divider {
@@ -1759,6 +1760,7 @@ footer#footer-wrapper ul li a:hover {
   height: 0;
   padding-bottom: 68.2%;
   /* of parent width */
+
 }
 .flavour .content-7 .img-text-content .img-content .map-container .map {
   position: absolute;
@@ -1986,6 +1988,7 @@ footer#footer-wrapper ul li a:hover {
   height: 0;
   padding-bottom: 68.2%;
   /* of parent width */
+
 }
 .contact .content-2 .img-text-content .img-content .map-container .map {
   position: absolute;
